@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerUbicacion">
+
+    <LinearLayout
+        android:id="@+id/header_ver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2196F3"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Rastreo de Compañero"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txtLatitudVer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lat: --"
+                android:textSize="14sp"
+                android:layout_marginEnd="16dp"/>
+
+            <TextView
+                android:id="@+id/txtLongitudVer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lon: --"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtDireccionVer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Esperando señal del compañero..."
+            android:textColor="#555555"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map_ver"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header_ver" />
+
+</RelativeLayout>
