@@ -1,6 +1,7 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/ed6e1cb4-1917-4602-b606-fe87ff3b83a0" height="500" alt="Vista Móvil 1" />
-  &nbsp; &nbsp; <img src="https://github.com/user-attachments/assets/ed6e1cb4-1917-4602-b606-fe87ff3b83a0" height="500" alt="Vista Móvil 2" />
+  <img src="https://github.com/user-attachments/assets/2a90a01a-5cf3-4221-8415-79165d166add" height="500" alt="Pantalla 1" />
+  &nbsp; &nbsp; <img src="https://github.com/user-attachments/assets/1f8ce76e-280b-4a10-962d-a5e9cbb92afd" height="500" alt="Pantalla 2" />
 
-  <br><br> <img src="https://github.com/user-attachments/assets/b4e6e1c9-a428-4b60-a520-ef024770bf24" width="400" alt="Detalle o Logo" />
+  <br><br> <p><em>Detalle del componente / código:</em></p>
+  <img src="https://github.com/user-attachments/assets/9fca0602-5629-4462-8ad4-38916e4c29f8" />
 </div>
